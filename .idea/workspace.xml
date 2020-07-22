@@ -26,35 +26,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eca15996-6638-468a-96fe-ddb75cf367a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mexpedition.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-expedition/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-expedition/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-expedition/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-expedition/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-expedition/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-expedition/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-expedition/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-expedition/src/main/java/com/mexpedition/mexpedition/MexpeditionApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-expedition/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-expedition/src/test/java/com/mexpedition/mexpedition/MexpeditionApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_2_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clientui/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/clientui/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-commandes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-commandes/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-paiement/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-paiement/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-produits/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-produits/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-expedition/src/main/java/com/mexpedition/mexpedition/model/Expedition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -95,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595432841037</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add module expedition to project">
+      <created>1595434897235</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595434897235</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,10 +122,10 @@
       <screen x="45" y="27" width="1555" height="873" />
     </state>
     <state x="305" y="40" width="1024" height="845" key="#Project_Structure/45.27.1555.873@45.27.1555.873" timestamp="1595433886282" />
-    <state x="145" y="125" width="1355" height="675" key="DiffContextDialog" timestamp="1595434725356">
+    <state x="145" y="125" width="1355" height="675" key="DiffContextDialog" timestamp="1595435107712">
       <screen x="45" y="27" width="1555" height="873" />
     </state>
-    <state x="145" y="125" width="1355" height="675" key="DiffContextDialog/45.27.1555.873@45.27.1555.873" timestamp="1595434725356" />
+    <state x="145" y="125" width="1355" height="675" key="DiffContextDialog/45.27.1555.873@45.27.1555.873" timestamp="1595435107712" />
     <state x="600" y="170" width="424" height="585" key="FileChooserDialogImpl" timestamp="1595433856179">
       <screen x="45" y="27" width="1555" height="873" />
     </state>
@@ -151,10 +142,10 @@
       <screen x="45" y="27" width="1555" height="873" />
     </state>
     <state x="305" y="40" width="1024" height="845" key="SettingsEditor/45.27.1555.873@45.27.1555.873" timestamp="1595432169262" />
-    <state x="417" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1595433072540">
+    <state x="417" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1595434914927">
       <screen x="45" y="27" width="1555" height="873" />
     </state>
-    <state x="417" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/45.27.1555.873@45.27.1555.873" timestamp="1595433072540" />
+    <state x="417" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/45.27.1555.873@45.27.1555.873" timestamp="1595434914927" />
     <state x="385" y="156" width="865" height="612" key="git4idea.branch.GitSmartOperationDialog" timestamp="1595433261238">
       <screen x="45" y="27" width="1555" height="873" />
     </state>
