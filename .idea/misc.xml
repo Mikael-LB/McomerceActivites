@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/microservice-paiement/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-produits/pom.xml" />
         <option value="$PROJECT_DIR$/zuul-server/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-expedition/pom.xml" />
       </list>
     </option>
   </component>

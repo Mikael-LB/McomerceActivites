@@ -10,6 +10,7 @@
         <module name="config-server" />
         <module name="clientui" />
         <module name="zuul-server" />
+        <module name="mexpedition" />
         <module name="mcommandes" />
         <module name="mproduits" />
         <module name="mpaiement" />
@@ -20,6 +21,8 @@
       <module name="config-server" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="mcommandes" target="1.8" />
+      <module name="mexpedition" target="1.8" />
+      <module name="microservice-expedition" target="1.8" />
       <module name="mpaiement" target="1.8" />
       <module name="mproduits" target="1.8" />
       <module name="zuul-server" target="1.8" />
@@ -31,6 +34,8 @@
       <module name="config-server" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="mcommandes" options="-parameters" />
+      <module name="mexpedition" options="-parameters" />
+      <module name="microservice-expedition" options="-parameters" />
       <module name="mpaiement" options="-parameters" />
       <module name="mproduits" options="-parameters" />
       <module name="zuul-server" options="-parameters" />
