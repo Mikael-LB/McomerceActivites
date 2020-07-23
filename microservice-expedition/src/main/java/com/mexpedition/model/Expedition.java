@@ -1,4 +1,4 @@
-package com.mexpedition.mexpedition.model;
+package com.mexpedition.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

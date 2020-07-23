@@ -1,4 +1,4 @@
-package com.mexpedition.mexpedition;
+package com.mexpedition;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
