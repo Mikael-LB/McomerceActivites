@@ -2,13 +2,14 @@ package com.mexpedition.web.controller;
 
 import com.mexpedition.dao.ExpeditionDao;
 import com.mexpedition.model.Expedition;
+import com.mexpedition.web.exception.ExpeditionNotFoundException;
 import com.mexpedition.web.exception.ImpossibleAjouterExpeditionException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.Optional;
 
 @RestController
 public class ExpeditionController {
@@ -23,5 +24,14 @@ public class ExpeditionController {
         if(nouvelleExpedition == null) throw new ImpossibleAjouterExpeditionException("Impossible d'ajouter cette commande");
 
         return new ResponseEntity<Expedition>(expedition, HttpStatus.CREATED);
+    }
+
+    @GetMapping(value="/expediton/{id}")
+    public Optional<Expedition> recupererExpedition(@PathVariable int id){
+        Optional<Expedition> expedition = expeditionDao.findById(id);
+
+        if(!expedition.isPresent()) throw new ExpeditionNotFoundException("Cette commande n'existe pas");
+
+        return expedition;
     }
 }

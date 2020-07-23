@@ -26,12 +26,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eca15996-6638-468a-96fe-ddb75cf367a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/microservice-expedition/src/main/java/com/mexpedition/dao/ExpeditionDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-expedition/src/main/java/com/mexpedition/web/controller/ExpeditionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-expedition/src/main/java/com/mexpedition/web/exception/ImpossibleAjouterExpeditionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-expedition/src/main/java/com/mexpedition/web/exception/ExpeditionNotFoundException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-expedition/src/main/java/com/mexpedition/mexpedition/MexpeditionApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-expedition/src/main/java/com/mexpedition/MexpeditionApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-expedition/src/main/java/com/mexpedition/mexpedition/model/Expedition.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-expedition/src/main/java/com/mexpedition/model/Expedition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-expedition/src/main/java/com/mexpedition/web/controller/ExpeditionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-expedition/src/main/java/com/mexpedition/web/controller/ExpeditionController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595435348798</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add method to add an expedition to datas">
+      <created>1595507408296</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595507408296</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,7 +142,8 @@
     <MESSAGE value="project initialisation in IntelliJ" />
     <MESSAGE value="Add module expedition to project" />
     <MESSAGE value="Add class Expedition" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add class Expedition" />
+    <MESSAGE value="Add method to add an expedition to datas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add method to add an expedition to datas" />
   </component>
   <component name="WindowStateProjectService">
     <state x="305" y="40" width="1024" height="845" key="#Project_Structure" timestamp="1595433886282">
