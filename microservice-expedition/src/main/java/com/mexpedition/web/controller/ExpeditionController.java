@@ -17,6 +17,12 @@ public class ExpeditionController {
     @Autowired
     ExpeditionDao expeditionDao;
 
+    /**
+     *
+     * method which create a new expedition in base
+     * @param expedition
+     * @return a ResponseEntity if ok or throw an exception
+     */
     @PostMapping (value="/expedition")
     public ResponseEntity<Expedition> ajouterExpedition (@RequestBody Expedition expedition) {
 
@@ -26,12 +32,28 @@ public class ExpeditionController {
         return new ResponseEntity<Expedition>(expedition, HttpStatus.CREATED);
     }
 
-    @GetMapping(value="/expediton/{id}")
+    /**
+     * method who get an expedition by her unique id
+     * @param id
+     * @return the expedition if found or throw an exception
+     */
+    @GetMapping(value="/expedition/{id}")
     public Optional<Expedition> recupererExpedition(@PathVariable int id){
         Optional<Expedition> expedition = expeditionDao.findById(id);
 
         if(!expedition.isPresent()) throw new ExpeditionNotFoundException("Cette commande n'existe pas");
 
         return expedition;
+    }
+
+    /**
+     * method which update an expedition with new value(s)
+     * No return
+     * @param expedition
+     */
+    @PutMapping (value="/expedition")
+    public void updateExpedition(@RequestBody Expedition expedition){
+
+        expeditionDao.save(expedition);
     }
 }
