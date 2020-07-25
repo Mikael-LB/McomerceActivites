@@ -25,7 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eca15996-6638-468a-96fe-ddb75cf367a1" name="Default Changelist" comment="" />
+    <list default="true" id="eca15996-6638-468a-96fe-ddb75cf367a1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +52,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1f305ey26vtBW6QzSJWpVViTDpy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -200,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595706420008</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Change uri from develop to master for config-server-repo">
+      <created>1595707625224</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1595707625224</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -268,22 +279,22 @@
       <screen x="45" y="27" width="1555" height="873" />
     </state>
     <state x="600" y="170" width="424" height="585" key="FileChooserDialogImpl/45.27.1555.873@45.27.1555.873" timestamp="1595433856179" />
-    <state width="1509" height="219" key="GridCell.Tab.0.bottom" timestamp="1595706429555">
+    <state width="1509" height="219" key="GridCell.Tab.0.bottom" timestamp="1595707906084">
       <screen x="45" y="27" width="1555" height="873" />
     </state>
-    <state width="1509" height="219" key="GridCell.Tab.0.bottom/45.27.1555.873@45.27.1555.873" timestamp="1595706429555" />
-    <state width="1509" height="219" key="GridCell.Tab.0.center" timestamp="1595706429555">
+    <state width="1509" height="219" key="GridCell.Tab.0.bottom/45.27.1555.873@45.27.1555.873" timestamp="1595707906084" />
+    <state width="1509" height="219" key="GridCell.Tab.0.center" timestamp="1595707906084">
       <screen x="45" y="27" width="1555" height="873" />
     </state>
-    <state width="1509" height="219" key="GridCell.Tab.0.center/45.27.1555.873@45.27.1555.873" timestamp="1595706429555" />
-    <state width="1509" height="219" key="GridCell.Tab.0.left" timestamp="1595706429554">
+    <state width="1509" height="219" key="GridCell.Tab.0.center/45.27.1555.873@45.27.1555.873" timestamp="1595707906084" />
+    <state width="1509" height="219" key="GridCell.Tab.0.left" timestamp="1595707906083">
       <screen x="45" y="27" width="1555" height="873" />
     </state>
-    <state width="1509" height="219" key="GridCell.Tab.0.left/45.27.1555.873@45.27.1555.873" timestamp="1595706429554" />
-    <state width="1509" height="219" key="GridCell.Tab.0.right" timestamp="1595706429555">
+    <state width="1509" height="219" key="GridCell.Tab.0.left/45.27.1555.873@45.27.1555.873" timestamp="1595707906083" />
+    <state width="1509" height="219" key="GridCell.Tab.0.right" timestamp="1595707906084">
       <screen x="45" y="27" width="1555" height="873" />
     </state>
-    <state width="1509" height="219" key="GridCell.Tab.0.right/45.27.1555.873@45.27.1555.873" timestamp="1595706429555" />
+    <state width="1509" height="219" key="GridCell.Tab.0.right/45.27.1555.873@45.27.1555.873" timestamp="1595707906084" />
     <state x="355" y="120" width="924" height="684" key="Maven.ArtifactSearchDialog" timestamp="1595701375643">
       <screen x="45" y="27" width="1555" height="873" />
     </state>
@@ -300,10 +311,10 @@
       <screen x="45" y="27" width="1555" height="873" />
     </state>
     <state x="305" y="40" width="1024" height="845" key="SettingsEditor/45.27.1555.873@45.27.1555.873" timestamp="1595432169262" />
-    <state x="417" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1595705950867">
+    <state x="417" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1595707657078">
       <screen x="45" y="27" width="1555" height="873" />
     </state>
-    <state x="417" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/45.27.1555.873@45.27.1555.873" timestamp="1595705950867" />
+    <state x="417" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/45.27.1555.873@45.27.1555.873" timestamp="1595707657078" />
     <state x="385" y="156" width="865" height="612" key="git4idea.branch.GitSmartOperationDialog" timestamp="1595433261238">
       <screen x="45" y="27" width="1555" height="873" />
     </state>
