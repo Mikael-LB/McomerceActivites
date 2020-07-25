@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Mcommerce</title>
+
+    <link rel="stylesheet" type="text/css"
+          href="http://localhost:8080/webjars/bootstrap/4.0.0-2/css/bootstrap.min.css"/>
+
+</head>
+<body>
+
+
+<div class="container">
+
+    <h1 class="text-center">Application Mcommerce</h1>
+
+    <div class="row">
+        <div class="col-md-4 mx-auto mt-5 text-center">
+
+            <p th:text="Commande No : ${expedition.idCommande}" class="font-weight-bold"></p>
+            <p>Etat de la commande :</p>
+            <div th:switch="${expedition.etat}">
+                <p th:case="'0'" class="text-warning">En préparation</p>
+                <p th:case="'1'" class="text-info">Expédié</p>
+                <p th:case="'2'" class="text-success">Livré</p>
+
+                <p th:case="*" class="text-danger">Non spécifié</p>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+<script type="text/javascript" src="http://localhost:8080/webjars/bootstrap/4.0.0-2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
