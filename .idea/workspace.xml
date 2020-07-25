@@ -25,16 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eca15996-6638-468a-96fe-ddb75cf367a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/clientui/src/main/java/com/clientui/beans/ExpeditionBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clientui/src/main/java/com/clientui/proxies/MicroserviceExpeditionProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clientui/src/main/resources/templates/Expedition.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clientui/src/main/java/com/clientui/controller/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/clientui/src/main/java/com/clientui/controller/ClientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-expedition/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-expedition/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-expedition/src/main/java/com/mexpedition/MexpeditionApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-expedition/src/main/java/com/mexpedition/MexpeditionApplication.java" afterDir="false" />
-    </list>
+    <list default="true" id="eca15996-6638-468a-96fe-ddb75cf367a1" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,7 +71,7 @@
       <recent name="com.mexpedition.dao" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MexpeditionApplication">
+  <component name="RunManager" selected="Application.ZuulServerApplication">
     <configuration name="ConfigServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mcommerce.configserver.ConfigServerApplication" />
       <module name="config-server" />
@@ -120,11 +111,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ZuulServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mcommerce.zuulserver.ZuulServerApplication" />
+      <module name="zuul-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mcommerce.zuulserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MexpeditionApplication" />
+        <item itemvalue="Application.ZuulServerApplication" />
         <item itemvalue="Application.EurekaServerApplication" />
         <item itemvalue="Application.ConfigServerApplication" />
+        <item itemvalue="Application.MexpeditionApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +186,21 @@
       <option name="project" value="LOCAL" />
       <updated>1595699936114</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add Feign, Ribbon, Eureka, Zuul to microservice-expedition with necessary additions in module clientui (html view...) and config-server-repo">
+      <created>1595705939031</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1595705939031</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Change uri from develop to master for config-server-repo">
+      <created>1595706420008</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1595706420008</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,7 +235,9 @@
     <MESSAGE value="Add method to GET an expedition by the id" />
     <MESSAGE value="Add method to update an expedition.&#10;Add file to define properties for microservice-expedition to config-server-repo." />
     <MESSAGE value="Add a method to update an expedition.&#10;Add a file fir the properties of expedition's microservice." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add a method to update an expedition.&#10;Add a file fir the properties of expedition's microservice." />
+    <MESSAGE value="Add Feign, Ribbon, Eureka, Zuul to microservice-expedition with necessary additions in module clientui (html view...) and config-server-repo" />
+    <MESSAGE value="Change uri from develop to master for config-server-repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change uri from develop to master for config-server-repo" />
   </component>
   <component name="WindowStateProjectService">
     <state x="305" y="40" width="1024" height="845" key="#Project_Structure" timestamp="1595433886282">
@@ -247,22 +268,22 @@
       <screen x="45" y="27" width="1555" height="873" />
     </state>
     <state x="600" y="170" width="424" height="585" key="FileChooserDialogImpl/45.27.1555.873@45.27.1555.873" timestamp="1595433856179" />
-    <state width="1509" height="219" key="GridCell.Tab.0.bottom" timestamp="1595623275760">
+    <state width="1509" height="219" key="GridCell.Tab.0.bottom" timestamp="1595706429555">
       <screen x="45" y="27" width="1555" height="873" />
     </state>
-    <state width="1509" height="219" key="GridCell.Tab.0.bottom/45.27.1555.873@45.27.1555.873" timestamp="1595623275760" />
-    <state width="1509" height="219" key="GridCell.Tab.0.center" timestamp="1595623275760">
+    <state width="1509" height="219" key="GridCell.Tab.0.bottom/45.27.1555.873@45.27.1555.873" timestamp="1595706429555" />
+    <state width="1509" height="219" key="GridCell.Tab.0.center" timestamp="1595706429555">
       <screen x="45" y="27" width="1555" height="873" />
     </state>
-    <state width="1509" height="219" key="GridCell.Tab.0.center/45.27.1555.873@45.27.1555.873" timestamp="1595623275760" />
-    <state width="1509" height="219" key="GridCell.Tab.0.left" timestamp="1595623275760">
+    <state width="1509" height="219" key="GridCell.Tab.0.center/45.27.1555.873@45.27.1555.873" timestamp="1595706429555" />
+    <state width="1509" height="219" key="GridCell.Tab.0.left" timestamp="1595706429554">
       <screen x="45" y="27" width="1555" height="873" />
     </state>
-    <state width="1509" height="219" key="GridCell.Tab.0.left/45.27.1555.873@45.27.1555.873" timestamp="1595623275760" />
-    <state width="1509" height="219" key="GridCell.Tab.0.right" timestamp="1595623275760">
+    <state width="1509" height="219" key="GridCell.Tab.0.left/45.27.1555.873@45.27.1555.873" timestamp="1595706429554" />
+    <state width="1509" height="219" key="GridCell.Tab.0.right" timestamp="1595706429555">
       <screen x="45" y="27" width="1555" height="873" />
     </state>
-    <state width="1509" height="219" key="GridCell.Tab.0.right/45.27.1555.873@45.27.1555.873" timestamp="1595623275760" />
+    <state width="1509" height="219" key="GridCell.Tab.0.right/45.27.1555.873@45.27.1555.873" timestamp="1595706429555" />
     <state x="355" y="120" width="924" height="684" key="Maven.ArtifactSearchDialog" timestamp="1595701375643">
       <screen x="45" y="27" width="1555" height="873" />
     </state>
@@ -279,10 +300,10 @@
       <screen x="45" y="27" width="1555" height="873" />
     </state>
     <state x="305" y="40" width="1024" height="845" key="SettingsEditor/45.27.1555.873@45.27.1555.873" timestamp="1595432169262" />
-    <state x="417" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1595699956845">
+    <state x="417" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1595705950867">
       <screen x="45" y="27" width="1555" height="873" />
     </state>
-    <state x="417" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/45.27.1555.873@45.27.1555.873" timestamp="1595699956845" />
+    <state x="417" y="198" width="800" height="528" key="Vcs.Push.Dialog.v2/45.27.1555.873@45.27.1555.873" timestamp="1595705950867" />
     <state x="385" y="156" width="865" height="612" key="git4idea.branch.GitSmartOperationDialog" timestamp="1595433261238">
       <screen x="45" y="27" width="1555" height="873" />
     </state>
